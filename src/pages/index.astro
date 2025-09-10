@@ -1,0 +1,76 @@
+---
+import { getEntry, render } from 'astro:content'
+import LayoutDefault from '~/layouts/LayoutDefault.astro'
+import { formatDate } from '~/utils'
+
+const { translate: t } = Astro.locals
+const aboutPost = await getEntry('spec', 'about')
+if (!aboutPost) {
+  throw new Error('No about post found')
+}
+
+const introPost= await getEntry('spec', 'intro')
+if (!introPost) {
+  throw new Error('No intro post found')
+}
+
+const { Content } = await render(aboutPost)
+const { Content: IntroContent } = await render(introPost)
+
+---
+
+<LayoutDefault>
+  <!-- Two-column intro -->
+  <section class="profile">
+    <div class="photo center">
+      <img src={introPost.data.image} alt="Profile photo" />
+    </div>
+    <div class="prose  text-sm">
+			<IntroContent />
+    </div>
+  </section>
+
+  <article class="prose text-sm">
+		<Content />
+  </article>
+</LayoutDefault>
+
+<style>
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;       /* Mobile: single column */
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {        /* Medium screens and up */
+  .profile {
+    grid-template-columns: 200px 1fr; /* Two columns: image + text */
+  }
+}
+.photo {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+}
+
+.photo img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .photo img {
+    max-width: 200px; /* bigger on larger screens */
+  }
+}
+
+.info {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+</style>
+

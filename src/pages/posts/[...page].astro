@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
+import { themeConfig } from '~/.config'
+import Pagination from '~/components/Pagination.astro'
+import LayoutDefault from '~/layouts/LayoutDefault.astro'
+import LayoutPost from '~/layouts/LayoutPost.astro'
+import { getPostDescription, getPosts } from '~/utils'
+
+const { translate: t } = Astro.locals
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const allPosts = await getPosts()
+	const posts = allPosts
+		.filter(post => post.collection === 'posts')
+		.sort((a, b) => {
+			if (a.data.pin && !b.data.pin) return -1
+			if (!a.data.pin && b.data.pin) return 1
+			return 0
+		})
+  posts.sort((a, b) => {
+    if (a.data.pin && !b.data.pin) return -1
+    if (!a.data.pin && b.data.pin) return 1
+    return 0
+  })
+  return paginate(posts, { pageSize: themeConfig.site.pageSize })
+}) satisfies GetStaticPaths
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const { page } = Astro.props
+---
+
+<LayoutDefault>
+  <section contain-layout flex="~ col gap-7.5">
+		Underconstruction ....
+  </section>
+</LayoutDefault>
