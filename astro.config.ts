@@ -12,7 +12,7 @@ import { themeConfig } from './src/.config'
 // https://astro.build/config
 export default defineConfig({
   // site: themeConfig.site.website,
-  site: 'https://songponssw.github.io'
+  site: 'https://songponssw.github.io',
   prefetch: true,
   base: '/',
   vite: {
