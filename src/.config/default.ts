@@ -6,7 +6,7 @@ import type { ThemeConfig } from '~/types'
 // TODO: Edit info here
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: 'Home',
+    title: 'Songpon HomePage',
     subtitle: '',
     author: 'Moeyua',
     description: 'Rediscory the beauty of typography',
@@ -19,7 +19,7 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'linkedin',
-        href: '/',
+        href: '/www.linkedin.com/in/songponssw',
       },
       // {
       //   name: 'rss',
