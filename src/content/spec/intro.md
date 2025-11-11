@@ -9,3 +9,5 @@ image: "/ri2c-display.png"
 
 **Skill**: Linux (Bash, performance monitoring, Makefile),ML (deployment & operations), Git, Go, Python, C
 
+**Email**: songpon.ssw@gmail.com
+
