@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://songponssw.github.io/sitemap-index.xml
