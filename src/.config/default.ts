@@ -6,9 +6,9 @@ import type { ThemeConfig } from '~/types'
 // TODO: Edit info here
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: 'Songpon HomePage',
+    title: 'Home',
     subtitle: '',
-    author: 'Moeyua',
+    author: 'songponssw',
     description: 'Rediscory the beauty of typography',
     website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
@@ -19,7 +19,7 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'linkedin',
-        href: '/www.linkedin.com/in/songponssw',
+        href: 'https://linkedin.com/in/songponssw',
       },
       // {
       //   name: 'rss',
@@ -43,16 +43,16 @@ export const defaultConfig: ThemeConfig = {
       //   name: 'Archive',
       //   href: '/archive',
       // },
-      // {
-      //   name: 'Categories',
-      //   href: '/categories',
-      // },
+      {
+        name: 'Tags',
+        href: '/categories',
+      },
       {
         name: 'About',
         href: '/',
       },
     ],
-    // categoryMap: [{ name: '胡适', path: 'hu-shi' }],
+    categoryMap: [{}],
     footer: [
       // '© %year <a target="_blank" href="%website">%author</a>',
       '© %year Theme <a target="_blank" href="https://github.com/Moeyua/astro-theme-typography">Typography</a> by <a target="_blank" href="https://moeyua.com">Moeyua</a>',
