@@ -11,7 +11,6 @@ import devtoolsJson from 'vite-plugin-devtools-json'
 // https://astro.build/config
 export default defineConfig({
   // site: themeConfig.site.website,
-  output: 'static',
   site: 'https://songponssw.github.io',
   prefetch: true,
   base: '/',
