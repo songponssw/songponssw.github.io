@@ -4,7 +4,6 @@ pubDate: 2025-12-11
 categories: ["Performance", "SpMV"]
 description: "Note taking for analyzing the page mechanism impats on SpMV performance"
 slug: spmv-lock
-draft: true
 ---
 
 ## Before we begin
