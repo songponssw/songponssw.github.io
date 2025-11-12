@@ -7,11 +7,11 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import UnoCSS from 'unocss/astro'
 import devtoolsJson from 'vite-plugin-devtools-json'
-import { themeConfig } from './src/.config'
 
 // https://astro.build/config
 export default defineConfig({
   // site: themeConfig.site.website,
+  output: 'static',
   site: 'https://songponssw.github.io',
   prefetch: true,
   base: '/',
