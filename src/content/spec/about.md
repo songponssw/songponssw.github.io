@@ -38,12 +38,12 @@ title: About me
 
 #### Skill
 
-Web Backend: Golang, gRPC, gRPC-gateway (API Gateway), Postgres, SQL, Redis
-DevOps: Docker, Kubernetes, Grafana, Prometheus
-Programming: Go, Python, C/C++, RPC, OpenMP, CUDA, Parallel programming
-Network: SDN, OpenFlow
-AI/ML: Federated Learning (A privacy-preserving machine learning method)
-Others: Linux, Bash, Makefile
+- **Web Backend**: Golang, gRPC, gRPC-gateway (API Gateway), Postgres, SQL, Redis
+- **DevOps**: Docker, Kubernetes, Grafana, Prometheus
+- **Programming**: Go, Python, C/C++, RPC, OpenMP, CUDA, Parallel programming
+- **Network**: SDN, OpenFlow
+- **AI/ML**: Federated Learning (A privacy-preserving machine learning method)
+- **Others**: Linux, Bash, Makefile
 
 #### Publication
 
