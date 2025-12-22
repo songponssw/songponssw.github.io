@@ -6,10 +6,12 @@ title: About me
 
 <small>
 
-> Thanks a lot for visiting my homepage! Here you'll find my journey realted to computer field.
-> I am a master’s degree graduate (December 2025) and am currently seeking full-time opportunities. My primary interests are backend engineering, DevOps, and Site Reliability Engineering (SRE). At present, I am strengthening my skills by building hands-on projects that reflect modern tools, architectures, and industry practices.
-> I believe that the ability to quickly adapt to and effectively use a company's technology stack is essential for delivering real business value. Through these projects, I aim to demonstrate both my practical experience with industry-standard tools and my solid foundation in system design and engineering principles.
-> I hope this work provides a clear picture of my capabilities and aligns well
+> **I am a master’s degree graduate (December 2025)** and am currently seeking full-time opportunities. My primary interests are **backend engineering, DevOps, and Site Reliability Engineering (SRE)**.
+
+> At present, I am strengthening my skills by building **hands-on projects** that reflect modern tools, architectures, and industry practices.
+
+> I believe that _the ability to quickly adapt to and effectively use a company's technology stack is essential_ for delivering real business value.
+> Through these projects, I aim to demonstrate both my practical experience with industry-standard tools and my solid foundation in system design and engineering principles. I hope this work provides a clear picture of my capabilities and aligns well
 
 #### About me
 
