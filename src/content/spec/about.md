@@ -7,10 +7,16 @@ title: About me
 <small>
 
 > Thanks a lot for visiting my homepage! Here you'll find my journey realted to computer field.
+> I am a master’s degree graduate (December 2025) and am currently seeking full-time opportunities. My primary interests are backend engineering, DevOps, and Site Reliability Engineering (SRE). At present, I am strengthening my skills by building hands-on projects that reflect modern tools, architectures, and industry practices.
+> I believe that the ability to quickly adapt to and effectively use a company's technology stack is essential for delivering real business value. Through these projects, I aim to demonstrate both my practical experience with industry-standard tools and my solid foundation in system design and engineering principles.
+> I hope this work provides a clear picture of my capabilities and aligns well
+
+#### About me
+
 > Over 7 years of experience, I build, debug, and monitor programs on Linux-based systems. From setting up applications in virtualization or container environments to analyzing how performance changes under different conditions, I focus on understanding system behavior. With my **HPC background**, I strive to squeeze out peak performance and deepen my understanding of how computers work, especially CPUs, memory, and operating systems. During my master’s degree, I dedicated time to exploring these interests further, expanding into **computer architecture, operating systems, and serverless technologies** through lab discussions and collaboration with colleagues.
 >
 > I also have experience in Federated Learning, particularly in deployment and communication within FL systems.
-> Apart from academic work, I recently **contributed to open-source development (Lima, a CNCF project)** to step into the industrial world and production-grade coding. I did applied to GSoC with the Lima project and [LFX Linux Kernel Mentorship](https://wiki.linuxfoundation.org/lkmp) but I was not selected. However, these applications encouraged me to continue contributing to open-source projects and the Linux kernel. Currently, I’m catching up with the latest DevOps tools, focusing on monitoring and observability (Prometheus, Loki, OpenTelemetry).
+> Apart from academic work, I recently **contributed to open-source development (Lima, a CNCF project)** to step into the industrial world and production-grade coding. I did applied to GSoC with the Lima project and [LFX Linux Kernel Mentorship](https://wiki.linuxfoundation.org/lkmp) but I was not selected. However, these applications encouraged me to continue contributing to open-source projects and the Linux kernel.
 
 ---
 
@@ -23,9 +29,19 @@ title: About me
 
 #### Repository/ Project
 
+- [ Hand-on project: Booking tickets](https://github.com/songponssw/booking-ticket-go): NBA booking tickets backend aim to brush up my skill on web backend and DevOps
 - [_SpMV Performance Analysis_](https://github.com/songponssw/ri2c-spmv): Analyzing sparse matrix structures and storage formats for faster computation.
 - [_SDN-OWL_](https://github.com/songponssw/sdn-owl): Implement Software-Defined Network (SDN) in Container and OpenVSwitch
 - [ Measuring response time of functions in Serverless Framework ](https://github.com/songponssw/rpc-kvs): Implement Key-Value store infrastructure on the Kubernetes-based Serverless Framework (vHive)
+
+#### Skill
+
+Web Backend: Golang, gRPC, gRPC-gateway (API Gateway), Postgres, SQL, Redis
+DevOps: Docker, Kubernetes, Grafana, Prometheus
+Programming: Go, Python, C/C++, RPC, OpenMP, CUDA, Parallel programming
+Network: SDN, OpenFlow
+AI/ML: Federated Learning (A privacy-preserving machine learning method)
+Others: Linux, Bash, Makefile
 
 #### Publication
 
