@@ -24,12 +24,12 @@ const { Content: IntroContent } = await render(introPost)
     <div class="photo center">
       <img src={introPost.data.image} alt="Songpon Srisawai" />
     </div>
-    <div class="prose text-sm">
+    <div class="prose text-sm max-w-8/10">
       <IntroContent />
     </div>
   </section>
 
-  <article class="prose text-sm">
+  <article class="prose text-sm max-w-8/10">
     <Content />
   </article>
 </LayoutDefault>

@@ -2,51 +2,53 @@
 title: About me
 ---
 
-### Hi everyone !!!
+### Greeting..
 
-<small>
+<!-- <small> -->
 
-> **I am a master’s degree graduate (December 2025)** and am currently seeking full-time opportunities. My primary interests are **backend engineering, DevOps, and Site Reliability Engineering (SRE)**.
+Just some one who loving coding at system. Trying to making it precise, robust, and hopefully, user-friendly.
 
-> At present, I am strengthening my skills by building **hands-on projects** that reflect modern tools, architectures, and industry practices.
+<!-- > **I am a master’s degree graduate (December 2025)** and am currently seeking full-time opportunities. My primary interests are **backend engineering, DevOps, and Site Reliability Engineering (SRE)**. -->
+<!---->
+<!-- > At present, I am strengthening my skills by building **hands-on projects** that reflect modern tools, architectures, and industry practices. -->
+<!---->
+<!-- > I believe that _the ability to quickly adapt to and effectively use a company's technology stack is essential_ for delivering real business value. -->
+<!-- > Through these projects, I aim to demonstrate both my practical experience with industry-standard tools and my solid foundation in system design and engineering principles. I hope this work provides a clear picture of my capabilities and aligns well -->
+<!---->
+<!-- #### About me -->
+<!---->
+<!-- > Over 7 years of experience, I build, debug, and monitor programs on Linux-based systems. From setting up applications in virtualization or container environments to analyzing how performance changes under different conditions, I focus on understanding system behavior. With my **HPC background**, I strive to squeeze out peak performance and deepen my understanding of how computers work, especially CPUs, memory, and operating systems. During my master’s degree, I dedicated time to exploring these interests further, expanding into **computer architecture, operating systems, and serverless technologies** through lab discussions and collaboration with colleagues. -->
+<!-- > -->
+<!-- > I also have experience in Federated Learning, particularly in deployment and communication within FL systems. -->
+<!-- > Apart from academic work, I recently **contributed to open-source development (Lima, a CNCF project)** to step into the industrial world and production-grade coding. I did applied to GSoC with the Lima project and [LFX Linux Kernel Mentorship](https://wiki.linuxfoundation.org/lkmp) but I was not selected. However, these applications encouraged me to continue contributing to open-source projects and the Linux kernel. -->
+<!---->
+<!-- --- -->
 
-> I believe that _the ability to quickly adapt to and effectively use a company's technology stack is essential_ for delivering real business value.
-> Through these projects, I aim to demonstrate both my practical experience with industry-standard tools and my solid foundation in system design and engineering principles. I hope this work provides a clear picture of my capabilities and aligns well
-
-#### About me
-
-> Over 7 years of experience, I build, debug, and monitor programs on Linux-based systems. From setting up applications in virtualization or container environments to analyzing how performance changes under different conditions, I focus on understanding system behavior. With my **HPC background**, I strive to squeeze out peak performance and deepen my understanding of how computers work, especially CPUs, memory, and operating systems. During my master’s degree, I dedicated time to exploring these interests further, expanding into **computer architecture, operating systems, and serverless technologies** through lab discussions and collaboration with colleagues.
->
-> I also have experience in Federated Learning, particularly in deployment and communication within FL systems.
-> Apart from academic work, I recently **contributed to open-source development (Lima, a CNCF project)** to step into the industrial world and production-grade coding. I did applied to GSoC with the Lima project and [LFX Linux Kernel Mentorship](https://wiki.linuxfoundation.org/lkmp) but I was not selected. However, these applications encouraged me to continue contributing to open-source projects and the Linux kernel.
-
----
-
-</small>
+<!-- </small> -->
 
 #### Experience
 
-- Contribute to _Lima project_ (Linux Machine), CNCF, [My PRs](https://github.com/lima-vm/lima/pulls?q=is%3Apr+is%3Aclosed+author%3Asongponssw)
+- Some contributions on _Lima project_ (Linux Machine), CNCF, [My PRs](https://github.com/lima-vm/lima/pulls?q=is%3Apr+is%3Aclosed+author%3Asongponssw)
 - International Student Cluster Competition, ISC 2018
 
 #### Repository/ Project
 
-- [ Hand-on project: Booking tickets](https://github.com/songponssw/booking-ticket-go): NBA booking tickets backend aim to brush up my skill on web backend and DevOps
+<!-- - [ Hand-on project: Booking tickets](https://github.com/songponssw/booking-ticket-go): NBA booking tickets backend aim to brush up my skill on web backend and DevOps -->
 - [_SpMV Performance Analysis_](https://github.com/songponssw/ri2c-spmv): Analyzing sparse matrix structures and storage formats for faster computation.
 - [_SDN-OWL_](https://github.com/songponssw/sdn-owl): Implement Software-Defined Network (SDN) in Container and OpenVSwitch
 - [ Measuring response time of functions in Serverless Framework ](https://github.com/songponssw/rpc-kvs): Implement Key-Value store infrastructure on the Kubernetes-based Serverless Framework (vHive)
 
-#### Skill
-
-- **Web Backend**: Golang, gRPC, gRPC-gateway (API Gateway), Postgres, SQL, Redis
-- **DevOps**: Docker, Kubernetes, Grafana, Prometheus
-- **Programming**: Go, Python, C/C++, RPC, OpenMP, CUDA, Parallel programming
-- **Network**: SDN, OpenFlow
-- **AI/ML**: Federated Learning (A privacy-preserving machine learning method)
-- **Others**: Linux, Bash, Makefile
+<!-- #### Skill -->
+<!---->
+<!-- - **Web Backend**: Golang, gRPC, gRPC-gateway (API Gateway), Postgres, SQL, Redis -->
+<!-- - **DevOps**: Docker, Kubernetes, Grafana, Prometheus -->
+<!-- - **Programming**: Go, Python, C/C++, RPC, OpenMP, CUDA, Parallel programming -->
+<!-- - **Network**: SDN, OpenFlow -->
+<!-- - **AI/ML**: Federated Learning (A privacy-preserving machine learning method) -->
+<!-- - **Others**: Linux, Bash, Makefile -->
 
 #### Publication
 
-- **S. Srisawai**, P. Sakdhanagool, Y. Chodpathumwan, <u>"Revisiting the Impact of Matrix Structure on Storage Format SpMV Performance"</u>, RI2C 2025, **(Best Paper Award)**
-- N. Mungkalaton, **S. Srisawai**, Y. Chodpathumwan, W. Li and A. Zomaya, <u>"FCS: A Fault-Tolerance Asynchronous Federated Learning System with Model Checkpoint Storage,"</u> 2025 IEEE International systems Conference (SysCon), Montreal, QC, Canada, 2025
-- **S. Srisawai**, P. Uthayopas <u>"Rapid Building of" Software-based SDN Testbed using SDN Owl"</u>, International Computer Science and Engineering Conference (ICSEC), 2018, pp. 1-4.
+- **S. Srisawai**, P. Sakdhanagool, Y. Chodpathumwan, ["Revisiting the Impact of Matrix Structure on Storage Format SpMV Performance"](https://ieeexplore.ieee.org/document/11282686), RI2C 2025, **(Best Paper Award)**
+- N. Mungkalaton, **S. Srisawai**, Y. Chodpathumwan, W. Li and A. Zomaya, ["FCS: A Fault-Tolerance Asynchronous Federated Learning System with Model Checkpoint Storage,"](https://ieeexplore.ieee.org/document/11014800) 2025 IEEE International systems Conference (SysCon), Montreal, QC, Canada, 2025
+- **S. Srisawai**, P. Uthayopas ["Rapid Building of" Software-based SDN Testbed using SDN Owl"](https://ieeexplore.ieee.org/document/8712636), International Computer Science and Engineering Conference (ICSEC), 2018, pp. 1-4.

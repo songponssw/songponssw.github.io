@@ -20,3 +20,10 @@ html {
   --at-apply: 'ease-in-out duration-300ms';
   --at-apply: 'hover:(c-background bg-primary decoration-primary)';
 }
+
+.prose p{
+  font-size: 14px;
+}
+.prose ul{
+  font-size: 14px;
+}
